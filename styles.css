@@ -319,7 +319,7 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(33.333% - 1.25rem); /* 3 колонки с промежутком */
+    width: calc(33.333% - 1.25rem); 
     padding: 0.625rem;
     border-radius: 0.5rem;
 }
@@ -352,7 +352,7 @@ table {
 /* Основной контейнер */
 .our-work {
     width: 100%;
-    position: relative; /* Используем относительное позиционирование */
+    position: relative;
     top: 45.9375rem;
     left: 0;
     box-sizing: border-box;
@@ -387,7 +387,7 @@ table {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1.25rem; /* Разделение между элементами списка */
+    gap: 1.25rem; 
     padding-left: 15.625rem;
 }
 
@@ -418,7 +418,7 @@ table {
 /* Основной контейнер */
 .container-build {
     width: 100%;
-    position: relative; /* Используем относительное позиционирование */
+    position: relative; 
     top: 45.9375rem;
     left: 0;
     box-sizing: border-box;
@@ -448,7 +448,7 @@ table {
 
 .container-build__button-view {
     background-color:  #666;
-    color: #fff; /* Белый цвет текста на кнопке */
+    color: #fff; 
     padding: 0.9375rem 2.5rem;
     border-radius: 0.3125rem;
     font-weight: bold;
@@ -490,7 +490,7 @@ table {
 .container-build__clients-header {
     width: 100%;
     text-align: left;
-    margin-bottom: 0.625rem; /* Уменьшенный отступ */
+    margin-bottom: 0.625rem; 
 }
 
 .container-build__clients-logos {
@@ -550,7 +550,7 @@ table {
 
 .container-build__enquire-button {
     background-color:  #666;
-    color: #fff; /* Белый цвет текста на кнопке */
+    color: #fff; 
     padding: 0.9375rem 2.5rem;
     border-radius: 0.3125rem;
     font-weight: bold;
@@ -601,7 +601,7 @@ table {
     }
 
     .container-build__logo {
-        width: calc(50% - 0.3125rem); /* Две колонки на маленьких экранах */
+        width: calc(50% - 0.3125rem);
     }
 }
 
@@ -716,7 +716,7 @@ table {
 /* Основной контейнер */
 .container-our__vision {
     width: 100%;
-    position: relative; /* Используем относительное позиционирование */
+    position: relative; 
     left: 0;
     box-sizing: border-box;
     background-color: #212721;
@@ -764,7 +764,7 @@ table {
 /* Основной контейнер */
 .main-content {
     width: 100%;
-    position: relative; /* Используем относительное позиционирование */
+    position: relative; 
     top: 45.9375rem;
     left: 0;
     box-sizing: border-box;
@@ -952,7 +952,7 @@ table {
     }
 }
 
-/* Добавляем дополнительные медиа-запросы для других размеров экранов */
+
 
 /* Экран до 1200px */
 @media (max-width: 75em) {
